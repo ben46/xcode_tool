@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>requestblock</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - ASIHTTPRequestDelegate
+- (void)requestFinished:(ASIHTTPRequest *)respondRequest
+{
+    [MBProgressHUDHelper hideHUD];
+}
+
+- (void)requestFailed:(ASIHTTPRequest *)request
+{
+    [MBProgressHUDHelper hideHUD];
+    NSError *error = [request error];
+    
+    [MBProgressHUDHelper showNetError];    
+    NSLog(@"RequestFailed: tag=%d  error=%@", request.tag, error);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A34CA722-0849-4A1B-BC04-7C3BB976BFF7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zq request block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
