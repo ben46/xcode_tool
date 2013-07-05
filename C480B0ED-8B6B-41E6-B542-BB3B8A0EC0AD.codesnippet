@@ -3,19 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pra</string>
+	<string>imageviewsetimage</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - </string>
+	<string> [&lt;#var#&gt; setImage:[UIImage imageNamed:@"&lt;#image name#&gt;"]];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>44420C55-5261-4865-852A-CF6E767BF7B1</string>
+	<string>C480B0ED-8B6B-41E6-B542-BB3B8A0EC0AD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq pragma mark block</string>
+	<string>zq setImage</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
