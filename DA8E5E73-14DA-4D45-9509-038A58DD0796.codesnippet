@@ -3,20 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nslog</string>
+	<string>viewwillappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    NSLog(@"&lt;#text#&gt;");
-</string>
+	<string>
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [MobClick beginLogPageView:&lt;#track name#&gt;];
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [MobClick endLogPageView:&lt;#track name#&gt;];
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>081A2EEC-662D-46A3-A1A4-755C729114A3</string>
+	<string>DA8E5E73-14DA-4D45-9509-038A58DD0796</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq quick log</string>
+	<string>zq view will appear</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

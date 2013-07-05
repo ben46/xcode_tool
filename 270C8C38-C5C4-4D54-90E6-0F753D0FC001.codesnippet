@@ -12,13 +12,21 @@
 	<string>- (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self setTitle:@"&lt;#title#&gt;"];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"common_background_1"]]];
+    [UINavigationBar customNavBackBtnWithTitle:@"返回" viewCtrller:self target:self action:@selector(back)];
+}
+
+- (void)back
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>270C8C38-C5C4-4D54-90E6-0F753D0FC001</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>viewdidload block</string>
+	<string>zq viewdidload block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

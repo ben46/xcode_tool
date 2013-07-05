@@ -3,20 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nslog</string>
+	<string>sharedInstance</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    NSLog(@"&lt;#text#&gt;");
-</string>
+	<string>+ (&lt;#ClassName#&gt; *)sharedInstance
+{
+    static id sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        sharedInstance = [[self alloc] init];
+    });
+    return sharedInstance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>081A2EEC-662D-46A3-A1A4-755C729114A3</string>
+	<string>8A463B31-1072-47BA-941F-EF4FD213855E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq quick log</string>
+	<string>zq sharedInstance block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

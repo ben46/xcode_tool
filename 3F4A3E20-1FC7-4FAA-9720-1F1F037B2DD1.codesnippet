@@ -3,20 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>nslog</string>
+	<string>uilabelinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    NSLog(@"&lt;#text#&gt;");
-</string>
+	<string>   UILabel *introLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+    [introLabel setFont:[UIFont systemFontOfSize:14]];
+    [introLabel setBackgroundColor:[UIColor clearColor]];
+    [introLabel setText:@"text"];
+    [introLabel setNumberOfLines:0];
+    [introLabel sizeToFit];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>081A2EEC-662D-46A3-A1A4-755C729114A3</string>
+	<string>3F4A3E20-1FC7-4FAA-9720-1F1F037B2DD1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq quick log</string>
+	<string>zq label init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
