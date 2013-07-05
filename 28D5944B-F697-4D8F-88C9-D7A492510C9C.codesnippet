@@ -3,20 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSLog(@"&lt;#text#&gt;");</string>
+	<string>NSLogSelector</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    NSLog(@"&lt;#text#&gt;");
+	<string>    NSLog(@"%@", NSStringFromSelector(_cmd));
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>081A2EEC-662D-46A3-A1A4-755C729114A3</string>
+	<string>28D5944B-F697-4D8F-88C9-D7A492510C9C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>zq NSLog selector</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq quick log</string>
+	<string>zq NSLog selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

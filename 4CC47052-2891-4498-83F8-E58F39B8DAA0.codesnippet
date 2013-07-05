@@ -13,6 +13,7 @@
     [loginBtn setBackgroundImage:[[UIImage imageNamed:@"common_btn_orange"] stretchableImageWithLeftCapWidth:10 topCapHeight:10] forState:UIControlStateNormal];
     [loginBtn setBackgroundImage:[[UIImage imageNamed:@"common_btn_orange_highlight"] stretchableImageWithLeftCapWidth:10 topCapHeight:10] forState:UIControlStateHighlighted];
     [loginBtn setTitle:@"button" forState:UIControlStateNormal];
+[loginBtn.titleLabel setFont:[UIFont systemFontOfSize:12]];
 [loginBtn addTarget:self action:@selector(&lt;#methodname#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4CC47052-2891-4498-83F8-E58F39B8DAA0</string>
