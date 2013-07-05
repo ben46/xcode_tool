@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UIActionSheetInit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>   UIActionSheet *actionSheet = [[[UIActionSheet alloc]
+                                       initWithTitle:@"是否拨打"
+                                       delegate:self
+                                       cancelButtonTitle:@"取消"
+                                       destructiveButtonTitle:nil otherButtonTitles:@"&lt;#yes button#&gt;", nil] autorelease];
+        [actionSheet showInView:self.view.window];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>021BD4D1-508B-4AB7-9E7B-7A9A0EDF7D51</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zq UIActionSheet init</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
