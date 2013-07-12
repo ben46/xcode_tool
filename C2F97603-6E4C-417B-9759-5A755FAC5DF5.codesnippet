@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xx_pushnavigation</string>
+	<string>typedefOption</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#class name#&gt; *vc = [[&lt;#class name#&gt; alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-    [vc release];</string>
+	<string>typedef NS_OPTIONS(&lt;#Value Type#&gt;, E&lt;#PropertyName#&gt;Mask) {
+    e&lt;#PropertyName#&gt;NoneMask  = 0,
+    e&lt;#PropertyName1#&gt;Mask     = 1 &lt;&lt; 0,
+    e&lt;#PropertyName2#&gt;Mask     = 1 &lt;&lt; 1
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B066ACF5-D554-47D5-B8F6-9F3FC9356844</string>
+	<string>C2F97603-6E4C-417B-9759-5A755FAC5DF5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>NS_OPTIONS, MASK</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq pushViewController</string>
+	<string>Euan Typedef Option</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

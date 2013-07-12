@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xx_pushnavigation</string>
+	<string>property_NSInterger</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#class name#&gt; *vc = [[&lt;#class name#&gt; alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-    [vc release];</string>
+	<string>@property (assign, nonatomic)NSInteger  </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B066ACF5-D554-47D5-B8F6-9F3FC9356844</string>
+	<string>04BD1829-5B5D-4A9B-B3C0-448D84333252</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>@property (assign, nonatomic)NSInteger  </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq pushViewController</string>
+	<string>Euan @Property NSInterger</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

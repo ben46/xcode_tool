@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xx_pushnavigation</string>
+	<string>typedefEnum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#class name#&gt; *vc = [[&lt;#class name#&gt; alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-    [vc release];</string>
+	<string>typedef NS_ENUM(&lt;#ValueType#&gt;, E&lt;#PropertyName#&gt;) {
+    e&lt;#PropertyName#&gt;Default = 0,
+    e&lt;#PropertyName#&gt; =
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B066ACF5-D554-47D5-B8F6-9F3FC9356844</string>
+	<string>4EF8EAC8-9032-4D12-97A8-4DC8D3ACEA25</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq pushViewController</string>
+	<string>Euan Typedef Enum</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
