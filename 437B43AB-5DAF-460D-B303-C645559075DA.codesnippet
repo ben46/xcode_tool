@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>clientblock</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    TRClient *client = [TRClient client];
+    [client setCompletionBlock:^(TRClient *client) {
+        [MBProgressHUDHelper hideHUD];
+        if(NO == client.hasError) {
+            NSArray *listDict = [client.responseData objectForKey:@"list"];
+            if ([listDict isKindOfClass:[NSArray class]] &amp;&amp; [listDict count] &gt; 0) {
+                for (NSDictionary *dict in listDict) {
+                    NSMutableDictionary *tmpDict = [[NSMutableDictionary alloc] initWithDictionary:dict];
+                    [tmpDict setObject:[NSNumber numberWithInteger:_tAgencySummaryInfo.tAgencyId] forKey:@"taID"];
+                    [TARouteCategory insertCategory:tmpDict inManagedObjectContext:self.managedObjectContext];
+                    [tmpDict release];
+                }
+            }
+        } else {
+        }
+    }];
+    [client taRouteCategory:[NSString stringWithFormat:@"%d", _tAgencySummaryInfo.tAgencyId]];
+    [MBProgressHUDHelper showHUDViewForView:self.view withText:@"加载中..."];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>437B43AB-5DAF-460D-B303-C645559075DA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zq client block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>webimageview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [&lt;#image view name#&gt; setImageWithURL:[NSURL URLWithString:&lt;#url#&gt;]
+                    placeholderImage:[UIImage imageNamed:@"common_img_place_holder"]
+                             options:SDWebImageLowPriority
+                             success:^(UIImage *image, BOOL cached) {
+                                 [&lt;#image view name#&gt; setContentMode:UIViewContentModeScaleAspectFill];
+                             }
+                             failure:^(NSError *error) {}];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C427B0CF-8268-4452-9E8B-5B5D8096B96D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zq web imageview block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
