@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zqLocalDict</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (NSMutableDictionary*)localDict
+{
+    NSMutableDictionary *dict = nil;
+    if (!_notificationDesign)
+    {
+        NSString *path = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"&lt;#file name#&gt;"];
+        dict = [NSMutableDictionary dictionaryWithDictionary:[NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:path]
+                                                                                      options:kNilOptions
+                                                                                        error:nil]];
+    }
+    
+    return dict;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1ADA877B-2C2D-414B-BCD9-AEA37983289C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zq Dictionary from local</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,15 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>method</string>
+	<string>methodzq</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)&lt;#method name#&gt;
+	<string>// zhouzq@cncn.net
+- (void)&lt;#method name#&gt;
 {
-    
+    &lt;#statement#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7AF2843F-5251-4D39-B49F-9379DF9AB5CA</string>
