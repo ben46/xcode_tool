@@ -2,26 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>UserDefaultsSetObject</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    
-}
-</string>
+	<string> [[NSUserDefaults standardUserDefaults] setObject:&lt;#Object#&gt; forKey:&lt;#Key#&gt;];
+    [[NSUserDefaults standardUserDefaults] synchronize];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>01253151-ECF7-4B02-9101-BDE0B8594FD2</string>
+	<string>21543439-6528-403B-9845-F3B4947AB3CC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>[NSUserDefaults statardUserDefaults] setObject</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>UserDefaults set</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
