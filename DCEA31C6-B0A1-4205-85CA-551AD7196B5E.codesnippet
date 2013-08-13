@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>nsassert_parse_dict</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSAssert([dict isKindOfClass:[NSDictionary class]], @"%@ %@", NSStringFromSelector(_cmd), @"亲，返回的数据不是Dictionary!")();</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DCEA31C6-B0A1-4205-85CA-551AD7196B5E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>NSAssert([dict isKindOfClass:[NSDictionary class]], @"%@ %@", NSStringFromSelector(_cmd), @"亲，返回的数据不是Dictionary!")();</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Euan NSAssert_parse_dictionary</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
