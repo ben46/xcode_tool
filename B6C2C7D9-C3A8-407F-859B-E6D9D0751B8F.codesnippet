@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>zqSplitString</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString *facilityStr = nil;
+SAFE_ASSIGN_WITH_DICT(facilityStr, dict, @"facility", copy);
+if (facilityStr.length &gt; 0) {
+    NSArray *facArray = [facilityStr componentsSeparatedByString:@","];
+    for (int i = 0; i &lt; facArray.count; i++) {
+        NSString *cut = [facArray objectAtIndex:i];
+        if (cut.length == 0) {
+            continue;
+        }
+        NSInteger num = [cut integerValue];
+        NSInteger convertedNum = pow(2, (num - 1));
+        self.facilitiyMask |= convertedNum;
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B6C2C7D9-C3A8-407F-859B-E6D9D0751B8F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>zq split string</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
