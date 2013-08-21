@@ -3,25 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>UserDefaultsSetObject</string>
+	<string>staticConstNSInteger</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> [[NSUserDefaults standardUserDefaults] setObject:&lt;#Object#&gt; forKey:Key];
-    [[NSUserDefaults standardUserDefaults] synchronize];</string>
+	<string>static const NSInteger k&lt;#name#&gt; = &lt;#value#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>21543439-6528-403B-9845-F3B4947AB3CC</string>
+	<string>C66BC8E3-119D-4F6A-A92F-DFC497529F9F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>[NSUserDefaults statardUserDefaults] setObject</string>
+	<string>euan Static const NSInteger k = </string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UserDefaults set</string>
+	<string>euan Static const NSInteger k = </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
