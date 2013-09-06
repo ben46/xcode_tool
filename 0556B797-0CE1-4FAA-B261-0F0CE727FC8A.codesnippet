@@ -3,29 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewwillappear</string>
+	<string>zqUIImageResizable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [MobClick beginLogPageView:kTrack&lt;#sdfsdf#&gt;];
-}
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-    [MobClick endLogPageView:&lt;#track name#&gt;];
-}</string>
+	<string>    self.photoFrameImgView.image = [[UIImage imageNamed:@"photo_frame"] resizableImageWithCapInsets:UIEdgeInsetsMake(&lt;#CGFloat top#&gt;, &lt;#CGFloat left#&gt;, &lt;#CGFloat bottom#&gt;, &lt;#CGFloat right#&gt;)];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DA8E5E73-14DA-4D45-9509-038A58DD0796</string>
+	<string>0556B797-0CE1-4FAA-B261-0F0CE727FC8A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq view will appear</string>
+	<string>zq uiimage resizable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
