@@ -13,7 +13,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:kTrack&lt;#sdfsdf#&gt;];
+    [MobClick beginLogPageView:kTrackPage&lt;#sdfsdf#&gt;];
 }
 - (void)viewWillDisappear:(BOOL)animated
 {
