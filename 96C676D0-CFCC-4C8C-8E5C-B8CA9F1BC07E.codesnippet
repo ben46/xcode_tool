@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>trackEvent</string>
+	<string>zqSimulator</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> [MobClick event:kTrackEvent&lt;#sdfsdf#&gt; label:&lt;#sdfsdfsdfds#&gt;];
-</string>
+	<string>#if TARGET_IPHONE_SIMULATOR
+    &lt;#sdfsdfsdfsdf#&gt;
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2E1AEC59-9F55-4D3A-912F-06A510CABBE7</string>
+	<string>96C676D0-CFCC-4C8C-8E5C-B8CA9F1BC07E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq trackEvent</string>
+	<string>zq simutator</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
