@@ -41,6 +41,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"didSelectRowAtIndexPath");
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EC32917C-D546-4955-812F-F3B9EB862C28</string>
