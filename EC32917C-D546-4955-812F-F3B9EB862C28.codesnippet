@@ -26,7 +26,8 @@
     static NSString *cellIdentifier = @"Cell";
     &lt;#cellname#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
-        cell = [[&lt;#cellname#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        cell = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([&lt;#cellname#&gt; class]) owner:nil options:nil] lastObject];
+
         cell.accessoryType = UITableViewCellAccessoryNone;
         cell.backgroundColor = [UIColor whiteColor];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
