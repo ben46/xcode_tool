@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property</string>
+	<string>const</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#classname#&gt;       *&lt;#propertyName#&gt;;
+	<string>static const NSString *kKeyHighestScore = @"KeyHighestScore";
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B643CD12-C142-459E-A1D7-776F5A24D314</string>
+	<string>888BF8C4-8A9B-42A7-A642-0C550D327C56</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq property</string>
+	<string>ZQ Const</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property</string>
+	<string>NSLogString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#classname#&gt;       *&lt;#propertyName#&gt;;
+	<string>         NSLog(@"%@", msg);
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B643CD12-C142-459E-A1D7-776F5A24D314</string>
+	<string>1AD6959E-62E3-4D8D-B1DB-FDA8B6726798</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq property</string>
+	<string>ZQ Log String</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
