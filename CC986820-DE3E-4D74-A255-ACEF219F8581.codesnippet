@@ -13,12 +13,9 @@
 
 - (id)initWithCoder:(NSCoder *)decoder
 {
-    self = [super init];
-    if (!self) {
-      return nil;
+    if (self = [super init]) {
+        &lt;# implementation #&gt;
     }
-
-    &lt;# implementation #&gt;
 
     return self;
 }
