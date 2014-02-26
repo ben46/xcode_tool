@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property</string>
+	<string>todo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#classname#&gt;       *&lt;#propertyName#&gt;;
+	<string>#warning TODO &lt;#dsfdsfdsf#&gt;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B643CD12-C142-459E-A1D7-776F5A24D314</string>
+	<string>E3E2EB86-1ED3-4868-BCC3-27125EEEA111</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>zq property</string>
+	<string>zq_todo</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
