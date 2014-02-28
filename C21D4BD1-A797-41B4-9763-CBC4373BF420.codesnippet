@@ -3,20 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSLogString</string>
+	<string>performSelector</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>         NSLog(@"%@", msg);
-</string>
+	<string> if([self.delegate respondsToSelector:@selector(shakeFrame)]){
+        [self.delegate performSelector:@selector(shakeFrame) withObject:nil];
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1AD6959E-62E3-4D8D-B1DB-FDA8B6726798</string>
+	<string>C21D4BD1-A797-41B4-9763-CBC4373BF420</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ZQ Log String</string>
+	<string>ZQ Res Perform Selector</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

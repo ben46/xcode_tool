@@ -3,20 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSLogString</string>
+	<string>Method</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>         NSLog(@"%@", msg);
-</string>
+	<string>- (void)&lt;#method name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1AD6959E-62E3-4D8D-B1DB-FDA8B6726798</string>
+	<string>961CF597-9761-46CA-A50E-3E0E4D34C84E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ZQ Log String</string>
+	<string>ZQ Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

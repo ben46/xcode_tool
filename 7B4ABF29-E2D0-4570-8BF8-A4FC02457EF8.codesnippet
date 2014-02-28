@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RequestBlock</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [[XClient sharedClient]
+     requestFriendsScoreListSuccess:^(id dict, NSString *msg, NSInteger code){
+         if ([dict isKindOfClass:[NSArray class]]) {
+             for (NSDictionary *orderDict in dict) {
+                 User *order = [[User alloc] initWithDictionary:orderDict error:nil];
+                 [self.list addObject:order];
+             }
+         }
+     }
+     failure:^(NSInteger errorCode, NSString *msg) {
+         
+     }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7B4ABF29-E2D0-4570-8BF8-A4FC02457EF8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ZQ Request Json</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
