@@ -13,12 +13,11 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:kTrackPage&lt;#sdfsdf#&gt;];
 }
+
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:&lt;#track name#&gt;];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DA8E5E73-14DA-4D45-9509-038A58DD0796</string>
