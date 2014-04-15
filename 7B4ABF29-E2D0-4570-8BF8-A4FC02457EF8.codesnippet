@@ -9,18 +9,18 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string> [[XClient sharedClient]
-     requestFriendsScoreListSuccess:^(id dict, NSString *msg, NSInteger code){
-         if ([dict isKindOfClass:[NSArray class]]) {
-             for (NSDictionary *orderDict in dict) {
-                 User *order = [[User alloc] initWithDictionary:orderDict error:nil];
-                 [self.list addObject:order];
-             }
-         }
-     }
-     failure:^(NSInteger errorCode, NSString *msg) {
-         
-     }];</string>
+	<string> [[TBClient sharedClient]
+  requestGetParameters:params
+  success:^(id dataDict, NSString *msg, NSInteger code) {
+      success(dataDict, msg, code);
+  } failure:^(NSInteger errorCode, NSString *msg) {
+      if (errorCode == -1)
+          msg = @"暂无数据";
+      else if (errorCode == -2)
+          msg = @"请重新登录";
+      failure(errorCode, msg);
+  }];
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7B4ABF29-E2D0-4570-8BF8-A4FC02457EF8</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -30,6 +30,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
