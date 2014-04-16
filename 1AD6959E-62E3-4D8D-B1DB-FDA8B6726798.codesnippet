@@ -15,8 +15,10 @@
 	<string>1AD6959E-62E3-4D8D-B1DB-FDA8B6726798</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>NSLog(@"%@", msg);</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ZQ Log String</string>
+	<string>NSLog(@"%@", msg);</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
