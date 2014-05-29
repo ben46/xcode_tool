@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// zq.zhou@tuobian.cn
-- (void)&lt;#method name#&gt;
+	<string>- (void)&lt;#method name#&gt;
 {
     &lt;#statement#&gt;
 }</string>

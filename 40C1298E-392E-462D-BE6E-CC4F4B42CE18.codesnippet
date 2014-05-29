@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>NSLogDebug</string>
+	<string>loadView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>         NSLog(@"%@", msg);
-</string>
+	<string>- (void)loadView
+{
+    [super loadView];
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1AD6959E-62E3-4D8D-B1DB-FDA8B6726798</string>
+	<string>40C1298E-392E-462D-BE6E-CC4F4B42CE18</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>NSLog(@"%@", msg);</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSLog(@"%@", msg);</string>
+	<string>ZQLoadView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
