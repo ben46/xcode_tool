@@ -9,11 +9,11 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>   UIActionSheet *actionSheet = [[[UIActionSheet alloc]
+	<string>   UIActionSheet *actionSheet = [[UIActionSheet alloc]
                                        initWithTitle:@"是否拨打"
                                        delegate:self
                                        cancelButtonTitle:@"取消"
-                                       destructiveButtonTitle:nil otherButtonTitles:@"&lt;#yes button#&gt;", nil] autorelease];
+                                       destructiveButtonTitle:nil otherButtonTitles:@"&lt;#yes button#&gt;", nil];
         [actionSheet showInView:self.view.window];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>021BD4D1-508B-4AB7-9E7B-7A9A0EDF7D51</string>
